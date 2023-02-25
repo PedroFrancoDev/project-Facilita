@@ -1,7 +1,7 @@
 import React from 'react';
 import * as C from './HeaderStyled'
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo/Logo.svg'
+import logoFacilita from '../../assets/images/logo/Logo.svg'
 import { BsPersonFill } from "react-icons/bs";
 
 import { ShoppingCart } from 'phosphor-react'
@@ -13,7 +13,7 @@ function Header() {
             <C.Nav>
                 <C.logo>
                     <Link to='/'>
-                        <img src={logo} alt="" />
+                        <img src={logoFacilita} alt="" />
                         <span>Faci<small>lita</small></span>
                     </Link>
                 </C.logo>

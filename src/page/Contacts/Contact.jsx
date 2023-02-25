@@ -1,9 +1,9 @@
 import React from 'react';
 import cuate from "../../assets/cuate.png"
 // import { Container } from './styles';
-import { Footer } from '../Footer/Footer'
+import { Footer } from '../../components/Footer/Footer'
 import * as C from './contactStyled'
-import SlideImg from '../Slide/SlideImg';
+import SlideImg from '../../components/Slide/SlideImg';
 
 function Contacts() {
   return (

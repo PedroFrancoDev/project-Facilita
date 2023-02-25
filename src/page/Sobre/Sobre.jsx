@@ -2,12 +2,12 @@ import 'react-slideshow-image/dist/styles.css';
 import React from 'react';
 import * as C from './SobreStyled';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Footer } from '../Footer/Footer';
+import { Footer } from '../../components/Footer/Footer';
 import {Services} from "./SobreStyled"
-import amico from "../../assets/amico.png"
+import amico from "../../assets//amico.png"
 import pana from "../../assets/pana.png"
 import employes from "../../assets/employes.png"
-import SlideImg from '../Slide/SlideImg';
+import SlideImg from '../../components/Slide/SlideImg';
 
 
 function Home() {

@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Home from './page/Home/Home';
-import LoginForm from './components/LoginForm/LoginForm';
-import Sobre from './components/Sobre/Sobre';
-import Contacts from './components/Contacts/Contact';
+import LoginForm from './page/LoginForm/LoginForm';
+import Sobre from './page/Sobre/Sobre';
+import Contacts from './page/Contacts/Contact';
 import Cart from './page/Cart/index';
 import Frutas from './page/Frutas';
 import Verduras from './page/Verduras';
